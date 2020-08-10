@@ -1,1 +1,1 @@
-## [Посмотреть](https://dimcter1985.github.io/Vue-todo/dist/)
+## [Посмотреть](https://dimcter1985.github.io/Vue-todo/)
