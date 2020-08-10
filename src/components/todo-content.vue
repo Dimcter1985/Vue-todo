@@ -37,7 +37,9 @@ export default {
     },
   },
   mounted() {
-    this.todos = JSON.parse(localStorage.getItem("todos"));
+    if (localStorage.getItem("todos")) {
+      this.todos = JSON.parse(localStorage.getItem("todos"));
+    }
   },
   methods: {
     addTodo(todo) {
